@@ -1,5 +1,1 @@
-Flask
-jupyter_dash
-dash
-dash_daq
-plotly
+pip freeze > requirements.txt
