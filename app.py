@@ -1,3 +1,4 @@
+"""
 from dash import Dash, html, dcc
 import plotly.express as px
 import pandas as pd
@@ -33,6 +34,7 @@ host_ip = '0.0.0.0'
 if __name__ == '__main__':
     app.run_server(host = host_ip,port=8000,debug=True)
 
+"""
 
 
 
@@ -42,9 +44,8 @@ if __name__ == '__main__':
 
 
 
-'''
-from flask import Flask, request, jsonify
-import os
+# from flask import Flask, request, jsonify
+# import os
 # app = Flask(__name__)
 
 # @app.route('/')
@@ -701,4 +702,3 @@ host_ip = '0.0.0.0'
 if __name__ == '__main__':
     app.run_server(host = '0.0.0.0',port=8000,debug=True)
 # %%
-'''
