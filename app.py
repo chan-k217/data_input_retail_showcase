@@ -12,7 +12,7 @@ def hello_world():
 # JupyterDash.infer_jupyter_proxy_config()
 # app = JupyterDash(__name__, external_stylesheets=['https://ikigai-css-stylesheets.s3.us-east-2.amazonaws.com/dash_dark-theme.css?v=1.0.6'])
 # data = load_data()
-
+'''
 # %%
 from jupyter_dash import JupyterDash
 app = JupyterDash(__name__, external_stylesheets=['https://ikigai-css-stylesheets.s3.us-east-2.amazonaws.com/dash_dark-theme.css?v=1.0.6'])
@@ -659,3 +659,5 @@ app.run_server(mode='external')
 
 
 # %%
+
+'''
