@@ -9,3 +9,4 @@ dash-table
 numpy
 plotly
 gunicorn
+Flask

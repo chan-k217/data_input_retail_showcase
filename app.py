@@ -1,3 +1,9 @@
+from flask import Flask, request, jsonify
+app1 = Flask(__name__)
+
+@app1.route('/')
+def hello_world():
+    return 'Hello, World!'
 # %%
 # # DO NOT MODIFY
 # from jupyter_dash import JupyterDash
