@@ -9,6 +9,7 @@ import os
 # if __name__ == '__main__':
 #     app.run()
 
+
 # %%
 from jupyter_dash import JupyterDash
 app = JupyterDash(__name__, external_stylesheets=['https://ikigai-css-stylesheets.s3.us-east-2.amazonaws.com/dash_dark-theme.css?v=1.0.6'])
@@ -651,14 +652,7 @@ app.layout = html.Div([
 
 ## This is the object that will be passed to gunicorn
 server = app.server
-
+host_ip = '0.0.0.0'
 if __name__ == '__main__':
-    app.run_server(host = host_ip,port=8000,debug=True)
+    app.run_server(host = '0.0.0.0',port=8000,debug=True)
 # %%
-
-
-# %%
-
-
-# %%
-
