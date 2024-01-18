@@ -4,14 +4,9 @@ app1 = Flask(__name__)
 @app1.route('/')
 def hello_world():
     return 'Hello, World!'
-# %%
-# # DO NOT MODIFY
-# from jupyter_dash import JupyterDash
-# from datasets import load_data
 
-# JupyterDash.infer_jupyter_proxy_config()
-# app = JupyterDash(__name__, external_stylesheets=['https://ikigai-css-stylesheets.s3.us-east-2.amazonaws.com/dash_dark-theme.css?v=1.0.6'])
-# data = load_data()
+if __name__ == '__main__':
+    app1.run()
 '''
 # %%
 from jupyter_dash import JupyterDash
